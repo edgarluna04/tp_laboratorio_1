@@ -5,8 +5,11 @@
  *      Author: edgar
  */
 
+#include <stdio.h>
+#include <stdlib.h>
+#include "Funciones.h"
 
-int suma(int num1, num2)
+int suma(int num1, int num2)
 {
 	int resultado;
 	resultado=num1+num2;
@@ -15,7 +18,7 @@ int suma(int num1, num2)
 }
 
 
-int resta(int num1, num2)
+int resta(int num1, int num2)
 {
 	int resultado;
 	resultado=num1-num2;
@@ -24,7 +27,7 @@ int resta(int num1, num2)
 }
 
 
-float division(int num1, num2)
+float division(int num1, int num2)
 {
 	float resultado;
 	resultado= (float)num1/num2;
@@ -33,7 +36,7 @@ float division(int num1, num2)
 }
 
 
-int multiplicacion(int num1, num2)
+int multiplicacion(int num1, int num2)
 {
 	int resultado;
 	resultado=num1*num2;

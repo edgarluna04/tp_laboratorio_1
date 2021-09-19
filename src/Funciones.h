@@ -7,7 +7,10 @@
 
 #ifndef FUNCIONES_H_
 #define FUNCIONES_H_
-#include <Funciones.c>
+
+#include <stdio.h>
+#include <stdlib.h>
+//#include "Funciones.c"
 
 
 /// \fn int suma(int,)
@@ -16,7 +19,7 @@
 /// \param num1
 /// \param num2
 /// \return resultado de la suma
-int suma(int num1, num2);
+int suma(int num1, int num2);
 
 /// \fn int resta(int,)
 /// \brief
@@ -24,7 +27,7 @@ int suma(int num1, num2);
 /// \param num1
 /// \param num2
 /// \return resultado de la resta
-int resta(int num1, num2);
+int resta(int num1, int num2);
 
 /// \fn float division(int,)
 /// \brief
@@ -32,7 +35,7 @@ int resta(int num1, num2);
 /// \param num1
 /// \param num2
 /// \return resultado de la division
-float division(int num1, num2);
+float division(int num1, int num2);
 
 /// \fn int multiplicacion(int,)
 /// \brief
@@ -40,7 +43,7 @@ float division(int num1, num2);
 /// \param num1
 /// \param num2
 /// \return resultado de la multiplicacion
-int multiplicacion(int num1, num2);
+int multiplicacion(int num1, int num2);
 
 /// \fn long long int factorial(int)
 /// \brief
