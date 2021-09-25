@@ -7,6 +7,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <conio.h>
 #include "Funciones.h"
 
 int suma(int num1, int num2)
